@@ -1,0 +1,337 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#177bba,#2b1782);
+    padding: 0 !important;
+}
+.navbar-brand{
+    height:55px;
+    padding-left: 20px;
+    top:0;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight:600;
+}
+.navbar-nav li a:hover{
+    background-color: #000;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+.logo{
+    height:auto;
+    width:auto;
+}
+.img1{
+    width:30%;
+    height:30%;
+}
+.items{
+    text-decoration: none;
+    float:right;
+}
+.navbar-brand img{
+    height:100px;
+    width:100px;
+}
+.navbar-nav{
+    float:right;
+    text-align: left;
+}
+
+/*------------BANNER CSS PARTS ---------------------*/
+#banner{
+    padding-top: 8%;
+    color:#fff;
+    background-image: linear-gradient(to right,#177bba,#2b1782);
+    padding:8%;    
+}
+.Promo-Text{
+    padding-top: 5%;
+    font-weight: 600;
+    font-size: 80px;
+    padding-right: 0;
+}
+.Promo-Text:hover{
+    transition: 1s;
+    transform: translateY(-20px);
+    
+}
+.imghead{
+    padding-top: 2%;
+    border-radius: 50px;
+    transition: 1s;
+    padding-bottom: 3%;
+
+}
+.head .row .overlap{
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    opacity:0;
+    position:absolute;
+    height:100%;
+    width:100%;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: none;
+
+}
+.head .row .hd-img-wrap:hover .overlap{
+    opacity:1;
+}
+.head .row .overlap .text2{
+    color:#000;
+    position: absolute;
+    top:30%;
+    bottom:50%;
+    left:55%;
+    font-size: 50px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.head .row .text2 p{
+    color:rgb(255, 238, 0);
+    text-decoration:wavy;
+}
+/*------------------------OVERVIEW SECTION-------------------------*/
+.overview{
+    padding-top: 0;
+  /*  background-image: linear-gradient(to right,rgb(122, 0, 128),rgb(248, 21, 248));*/
+}
+.topic{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topic::before{
+    content: '';
+    background-color: #177bba;
+    height:5px;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(80px);
+}
+.topic::after{
+    content: '';
+    background-color: #1717ba;
+    height:10px;
+    width:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    transform: translateY(-18px);
+}
+.image{
+    width:100px;
+    height:100px;
+}
+.imgovr:hover{
+    transition: 0.5s;
+    transform: translate(-50%, -50%);
+}
+.ovrtxt{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.ovrtxt:hover{
+    text-decoration:unset;
+
+}
+.btn-primary{
+    border: none;
+    border-radius: 0 15px 0 15px;
+    padding:5px 10px;
+    font-size: 20px;
+    color:#0d0ded
+    margin-left: 10px;
+}
+p.head2{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-decoration:solid;
+    font-weight: 800;
+}
+.btn-primary:hover{
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    background-image: linear-gradient(to top,yellow,rgb(255, 191, 0));
+}
+.item{
+    height:100px;
+    width:100px;
+}
+.submenu .row .img-ovr-2 .image{
+    display:block;
+    height:400px;
+    width:400px;
+}
+.submenu .row .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom:0;
+    top:0;
+    height:100%;
+    width:50%;
+    opacity: 0;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    background-color: #222;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.submenu .row .img-ovr-2:hover .overlay{
+    opacity: 1;
+}
+.submenu .row .overlay .text{
+    color:#fff;
+    position: absolute;
+    font-size: 20px;
+    top:50%;
+    bottom:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.submenu .row .overlay .text a{
+    text-decoration: none;
+    color:white;
+}
+.head2:hover{
+    transform: translate(-30px);
+    transition: 0.5s;
+}
+/*--------------------------------------------SERVICE CSS SECTION-------------------------------------------*/
+
+.service{
+    padding-top:20px;
+    padding-bottom: 0;
+}
+.img-4{
+    padding-top: 0%;
+    height: 400px;
+    width:400px;
+}
+.service1{
+
+    font-size: 60px;
+    font-weight: 800;
+}
+.service1:hover{
+    transform: translate(30px);
+    transition: 0.5s;
+}
+.services .row .overlay2{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    height:100%;
+    width:75%;
+    opacity: 0;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    font-weight: 800;
+    background-color: rgb(21, 192, 226);
+
+}
+.services .row .imgs1:hover .overlay2{
+    opacity:1;
+}
+.services .row .overlay2 .text3{
+    color:black;
+    top:50%;
+    bottom:50%;
+    left:55%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.services .row .overlay2 .text3 a{
+    text-decoration: none;
+    color:black;
+}
+/*---------------------------------SOCIAL MEDIA SECTION------------------------------------*/
+.topic1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 3%;
+}
+.topic1::before{
+    content:'';
+    height:5px;
+    width:450px;
+    margin-left: auto;
+    margin-right:auto ;
+    background-color: #177bba;
+    display: block;
+    transform: translateY(80px);
+}
+.topic1::after{
+    content: '';
+    background-color: #0d0ded;
+    display: block;
+    height: 10px;
+    width:60px;
+    margin-left: auto;
+    margin-right:auto;
+    transform: translateY(-18px);
+
+}
+.socialimages{
+    width:100px;
+    height:100px;
+}
+.socialimages:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+    animation-direction: reverse;
+}
+.socialmedia{
+    padding:3% 0;
+}
+footer{
+    padding:5% 0;
+    background-image: linear-gradient(to right,#177bba,#2b1782);
+}
+.footer .row h6{
+    top:0;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer .row .details a{
+    text-decoration: none;
+}
+@media screen and(max-width:480px) {
+    .head .row .hd-img-wrap img{
+        height:300px;
+        weight:300px;
+    }
+}
